@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js')
+    script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js')
+    script(src='/javascripts/ng.js')
+    
+  body(ng-app='myDocapp')
+    block content

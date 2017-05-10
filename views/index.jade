@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  
+  .container
+             h1.center #{title}
+             .row 
+                     .col-md-3.list-conainer(ng-controller='listitemsController')
+                                a.list-item(ng-repeat='item in list',href='/#/item/{{item.id}}') {{item.title}}
+                                
+                                
+                     .col-md-9.item-conainer
+                               div(ng-view)
+           
+

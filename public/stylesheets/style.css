@@ -1,0 +1,70 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.center
+{
+    text-align:center;
+}
+.list-item
+{
+    padding: 10px;
+box-shadow: 0px 1px 9px -6px gray;
+    color: #939393;
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+}
+.list-container
+{
+    height: 849px;
+overflow: auto;
+}
+.list-item:hover
+{
+    text-decoration: none;
+}
+.item-conainer
+{
+    height: 900px;
+    background-color:#f3f3f3;
+    padding: 30px;
+}
+.item-conainer .title
+{
+    font-size: 26px;
+padding: 10px;
+}
+h2
+{
+    color: rgb(51, 162, 198);;
+}
+.top-mar
+{
+    margin-top: 100px;
+}
+
+.rf-button
+{
+    text-align: center;
+    text-decoration: none;
+    padding:10px 30px;
+    background-color: #4bdbcc;
+    border-radius: 5px;
+    border-bottom: 3px solid #39c3b0;
+    color: white;
+    cursor: pointer;
+    
+}
+.rf-button:hover
+{
+    text-decoration: none;
+    background-color: #4ba3db;
+    border-bottom-color:#2a8fb7;
+    color: white;
+    
+}
