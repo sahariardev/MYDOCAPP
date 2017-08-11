@@ -2,10 +2,10 @@ var express = require('express');
 var router = express.Router();
 var firebase=require('firebase');
 var config = {
-    apiKey: "AIzaSyB6S1AmO5c8iO_fUH1xSI4ARkqrPXmXiQ0",
-    authDomain: "mydocs-b1e22.firebaseapp.com",
-    databaseURL: "https://mydocs-b1e22.firebaseio.com",
-    storageBucket: "mydocs-b1e22.appspot.com",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    storageBucket: "",
   };
   firebase.initializeApp(config);
 var id=0;
